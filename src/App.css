@@ -1,5 +1,9 @@
+*{
+  background-color: #11161f;
+}
 .App {
   text-align: center;
+  color: white;
 }
 
 .App-logo {
@@ -35,4 +39,45 @@
   to {
     transform: rotate(360deg);
   }
+}
+.seatArrag{
+  width: 350px;
+  display: grid;
+  margin: auto;
+  margin-top: 20px;
+}
+.td{
+  width: 30px;
+  height: 30px;
+  background-color: #d1d3d8;
+  color: white;
+  margin: 2px;
+  border: 1px solid red;
+}
+.td2{
+  width: 30px;
+  height: 30px;
+  background-color: #4370e1;
+  color: white;
+  margin: 2px;
+  border: 1px solid red;
+}
+.show_seat{
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+}
+input{
+  color: black;
+  background-color: white;
+}
+button{
+  color: black;
+  background-color: white;
+  width: auto;
+  height: 25px;
+  border: 2px solid rgb(228, 223, 223);
+  border-radius: 5%;
+  margin-left: 5px;
+  cursor: pointer;
 }
